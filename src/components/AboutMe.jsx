@@ -12,7 +12,7 @@ const AboutMe = () => {
                                 <img
                                     src="profile.jpg"
                                     alt=""
-                                    className="self-center flex-shrink-0 w-24 h-24 border rounded-full md:justify-self-start bg-gray-500 border-gray-700"
+                                    className="self-center flex-shrink-0 w-24 h-24 border rounded-full md:justify-self-start bg-gray-500 border-[#F12F78]"
                                 />
                                 <div className="flex flex-col">
                                 <h1 className="text-2xl text-gray-800 font-semibold">Get to Know Me</h1>
@@ -31,7 +31,7 @@ const AboutMe = () => {
                                 <img
                                     src="education.png"
                                     alt=""
-                                    className="self-center flex-shrink-0 w-24 h-24 border md:justify-self-start border-gray-700"
+                                    className="self-center flex-shrink-0 w-24 h-24 border md:justify-self-start border-[#F12F78]"
                                 />
                                 <div className="flex flex-col">
                                 <h1 className="text-2xl text-gray-800 font-semibold">My Education</h1>
