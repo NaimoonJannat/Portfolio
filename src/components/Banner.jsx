@@ -18,7 +18,7 @@ const Banner = () => {
                     />
                 </h2>
                 <h2 className="text-2xl text-white">A Frontend Developer</h2>
-                <button className="btn transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-gray-700 hover:text-white">
+                <button className="btn transition duration-300 ease-in-out transform hover:-translate-y-1 bg-[#D12E5C] hover:scale-110 hover:bg-white hover:text-">
                     Download CV
                 </button>
             </div>
