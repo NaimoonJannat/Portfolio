@@ -1,7 +1,9 @@
+import Title from "./Title";
 
 const Contact = () => {
     return (
         <section className="py-6 text-gray-800">
+            <Title title="Contact Me"></Title>
 	<div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
 		<div className="py-6 md:py-0 md:px-6">
 			<h1 className="text-4xl font-bold">Get in touch</h1>
@@ -15,7 +17,7 @@ const Contact = () => {
                 </p>
 			</div>
 		</div>
-		<form noValidate="" className="flex flex-col py-6 space-y-6 md:py-0 md:px-6">
+		<form className="flex flex-col py-6 space-y-6 md:py-0 md:px-6">
 			<label className="block">
 				<span className="mb-1">Full name</span>
 				<input type="text" placeholder="John Doe" className="p-2 block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 bg-gray-300" />
