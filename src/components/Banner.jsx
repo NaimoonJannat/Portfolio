@@ -3,10 +3,10 @@ import { Typewriter } from 'react-simple-typewriter';
 const Banner = () => {
     return (
         <div className="relative">
-            <img className="max-h-screen w-full object-cover" src="cool-background.png" alt="" />
-            <div className="absolute space-y-4 inset-0 flex flex-col items-center justify-center text-center">
-                <h2 className="text-6xl text-white">Hi, This is </h2>
-                <h2 className="text-6xl text-gray-800 font-bold">
+            <img className="h-80 md:min-h-screen w-full object-cover" src="cool-background.png" alt="" />
+            <div className="absolute py-50 space-y-4 inset-0 flex flex-col items-center justify-center text-center">
+                <h2 className="text-4xl md:text-6xl text-white">Hi, This is </h2>
+                <h2 className="text-4xl md:text-6xl text-gray-800 font-bold">
                     <Typewriter
                         words={['Naimoon Jannat Prapti']}
                         loop={true}
