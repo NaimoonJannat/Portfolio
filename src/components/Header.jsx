@@ -1,6 +1,6 @@
 const Header = () => {
     return (
-        <nav className="navbar sticky top-0 z-50 bg-red-700 bg-opacity-80 backdrop-blur-md flex justify-between items-center px-4 py-2 md:px-6 md:py-4 text-white">
+        <nav className="navbar sticky top-0 z-50 bg-[#F12F78] bg-opacity-80 backdrop-blur-md flex justify-between items-center px-4 py-2 md:px-6 md:py-4 text-white">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
