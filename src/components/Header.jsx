@@ -31,11 +31,11 @@ const Header = () => {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 space-x-2 md:space-x-4">
-      <li><a href="#home" className="hover:text-blue-400 font-bold">Home</a></li>
-      <li><a href="#about-me" className="hover:text-gray-500 font-bold">About Me</a></li>
-      <li><a href="#skills" className="hover:text-gray-500 font-bold">Skills</a></li>
-      <li><a href="#projects" className="hover:text-gray-500 font-bold">Projects</a></li>
-      <li><a href="#contact" className="hover:text-gray-500 font-bold">Contact</a></li>
+      <li><a href="#home" className="hover:text-white font-bold">Home</a></li>
+      <li><a href="#about-me" className="hover:text-white font-bold">About Me</a></li>
+      <li><a href="#skills" className="hover:text-white font-bold">Skills</a></li>
+      <li><a href="#projects" className="hover:text-white font-bold">Projects</a></li>
+      <li><a href="#contact" className="hover:text-white font-bold">Contact</a></li>
     </ul>
   </div>
   <div className="navbar-end">
