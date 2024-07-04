@@ -9,7 +9,7 @@ const ProjectOverview = () => {
     const intId = parseInt(id);
     const project = projects.find((project) => project.id == intId);
     return (
-        <div className="card p-2 lg:card-side lg:py-20">
+        <div className="card py-10 lg:card-side lg:py-20">
         <div className="lg:w-1/2 bg-[#1313130D] rounded-2xl  flex justify-center items-center">
             <div className="mockup-phone">
   <div className="camera"></div>

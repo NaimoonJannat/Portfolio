@@ -7,14 +7,23 @@ import Skills from "./Skills";
 const Home = () => {
     return (
         <div className="space-y-20">
-            <Banner></Banner>
-            <div className="w-11/12 space-y-20 md:w-4/5 mx-auto">
-            <AboutMe></AboutMe>
-            <Skills></Skills>
-            <Projects></Projects>
-            <Contact></Contact>
+            <div id="home">
+                <Banner />
             </div>
-            
+            <div className="w-11/12 space-y-20 md:w-4/5 mx-auto">
+                <div id="about-me">
+                    <AboutMe />
+                </div>
+                <div id="skills">
+                    <Skills />
+                </div>
+                <div id="projects">
+                    <Projects />
+                </div>
+                <div id="contact">
+                    <Contact />
+                </div>
+            </div>
         </div>
     );
 };
