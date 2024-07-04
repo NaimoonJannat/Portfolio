@@ -1,4 +1,4 @@
-import { useLoaderData, useParams } from "react-router-dom";
+import { Link, useLoaderData, useParams } from "react-router-dom";
 import Subtitle from "./Subtitle";
 import Title from "./Title";
 
@@ -54,10 +54,13 @@ const ProjectOverview = () => {
               
             </div>
             <div className="card-actions justify-start flex gap-4">
-                <button className="btn text-black font-semibold">Read</button>
-                <button className="btn bg-[#50B1C9] text-white font-semibold">
-                    Wishlist
-                </button>
+                <Link to={project.clientLink} target="_blank" className="btn text-black font-semibold">View Client Code</Link>
+                <Link to={project.liveLink} target="_blank" className="btn bg-[#F12F78] text-white font-semibold">
+                   Live {project.name}
+                </Link>
+                <Link to={project.serverLink} target="_blank" className="btn bg-gray-800 text-white font-semibold">
+                View Server Code
+                </Link>
             </div>
         </div>
     </div>
