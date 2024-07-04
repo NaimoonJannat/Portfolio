@@ -21,7 +21,7 @@ import ProjectOverview from './components/ProjectOverview';
     {
       path: "/project-overview/:id",
       element: <ProjectOverview></ProjectOverview>,
-      
+      loader: () => fetch('projectData.json')
     }
 
   ] 
