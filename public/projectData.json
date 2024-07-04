@@ -1,0 +1,66 @@
+[
+    {
+      "name": "StudyBud",
+      "image": "https://i.ibb.co/WFgTKPw/studybud.png",
+      "description": "StudyBud is an online platform designed to facilitate group study sessions, allowing users to create, assign, and complete assignments collaboratively. It provides a seamless and interactive environment for learners to engage with their peers, share resources, and track their progress together.",
+      "features": [
+        "User Authentication",
+        "Assignment Management",
+        "Interactive Learning"
+      ],
+      "technology": [
+        "React",
+        "MobngoDb",
+        "Firebase",
+        "Express Js",
+        "Tailwind CSS"
+      ],
+      "liveLink": "https://b9a11-studybud.web.app/",
+      "clientLink": "https://github.com/NaimoonJannat/B9A11-StudyBud-Client",
+      "serverLink": "https://github.com/NaimoonJannat/B9A11-StudyBud-Server"
+    },
+    {
+      "name": "Asset Guard",
+      "image": "https://i.ibb.co/dGpZTpx/assetguard.png",
+      "description": "AssetGuard is a comprehensive asset management system designed to help businesses efficiently manage and track their assets. With an easy-to-use interface, HR managers and employees can seamlessly manage and request assets, ensuring optimal utilization and accountability of company resources.",
+      "features": [
+        "Add/Remove Employees",
+        "Manage Assets",
+        "Approve/Reject Asset Requests"
+      ],
+      "technology": [
+        "MongoDb",
+        "Node.js",
+        "React",
+        "Firebase",
+        "Rechart",
+        "Tailwind CSS"
+      ],
+      "liveLink": "https://assetguard-43955.web.app",
+      "clientLink": "https://github.com/NaimoonJannat/B9A12-AssetGuard-Client",
+      "serverLink": "https://github.com/NaimoonJannat/B9A12-AssetGuard-Server"
+    },
+    {
+      "name": "Tourist Haven",
+      "image": "https://i.ibb.co/bXxG2SJ/touristhaven.png",
+      "description": "Welcome to Tourist Haven, your one-stop destination for exploring Europe's hidden gems and popular spots. This website allows users to discover, share, and manage tourist attractions across Europe.",
+      "features": [
+        "User Authentication",
+        "Add Spot Cards",
+        "Add Reviews"
+      ],
+      "technology": [
+        "MongoDb",
+        "Node.js",
+        "React",
+        "Firebase",
+        "Rechart",
+        "Tailwind CSS"
+      ],
+      "liveLink": "https://b9a10-tourist-haven.web.app/",
+      "clientLink": "https://github.com/NaimoonJannat/B9A10-Tourist-Haven-Client",
+      "serverLink": "https://github.com/NaimoonJannat/B9A10-Tourist-Haven-Server"
+    }
+    
+  ]
+  

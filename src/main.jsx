@@ -19,8 +19,9 @@ import ProjectOverview from './components/ProjectOverview';
       element: <Home></Home>
     },
     {
-      path: "/project-overview",
-      element: <ProjectOverview></ProjectOverview>
+      path: "/project-overview/:id",
+      element: <ProjectOverview></ProjectOverview>,
+      
     }
 
   ] 
