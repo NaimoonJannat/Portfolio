@@ -7,6 +7,7 @@ import {
  } from "react-router-dom";
 import Home from './components/Home';
 import Root from './Root';
+import ProjectOverview from './components/ProjectOverview';
 
  const router = createBrowserRouter([ 
   { 
@@ -16,7 +17,12 @@ import Root from './Root';
     {
       path: "/",
       element: <Home></Home>
+    },
+    {
+      path: "/project-overview",
+      element: <ProjectOverview></ProjectOverview>
     }
+
   ] 
   }, 
  ]);
