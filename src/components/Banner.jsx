@@ -3,8 +3,8 @@ import { Typewriter } from 'react-simple-typewriter';
 const Banner = () => {
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = '/Naimoon_Jannat_Prapti_CV.pdf';
-        link.setAttribute('download', 'Naimoon_Jannat_Prapti_CV.pdf');
+        link.href = '/RESUME_Naimoon Jannat Prapti.pdf';
+        link.setAttribute('download', 'RESUME_Naimoon Jannat Prapti.pdf');
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
