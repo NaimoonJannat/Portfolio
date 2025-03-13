@@ -45,7 +45,7 @@ const ProjectOverview = () => {
                 {project.features.map((tagg, index) => (
                     <div
                         key={index}
-                        className=" text-[#F12F78] font-semibold text-lg"
+                        className=" text-black font-semibold text-lg"
                     >
                        {index+1}. {tagg}
                     </div>

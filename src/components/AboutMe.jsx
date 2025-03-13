@@ -15,7 +15,7 @@ const AboutMe = () => {
                                     className="self-center flex-shrink-0 w-24 h-24 border rounded-full md:justify-self-start bg-gray-500 border-[#F12F78]"
                                 />
                                 <div className="flex flex-col">
-                                <h1 className="text-2xl text-gray-800 font-semibold">Get to Know Me</h1>
+                                <h1 className="text-2xl text-gray-800 font-bold">Get to Know Me</h1>
                                     <p className="text-gray-800">
                                     I am Naimoon Jannat Prapti, living in Bangladesh. Currently, I am pursuing a B.Sc in Computer Science and Engineering. I have a passion for web development and am dedicated to continuously learning and improving my skills in this field. In my journey, I have been exploring various web technologies and frameworks, and I enjoy building interactive and dynamic web applications. My goal is to become a proficient full-stack developer and contribute to impactful projects.
                                     </p>
@@ -34,9 +34,9 @@ const AboutMe = () => {
                                     className="self-center flex-shrink-0 w-24 h-24 border md:justify-self-start border-[#F12F78]"
                                 />
                                 <div className="flex flex-col">
-                                <h1 className="text-2xl text-gray-800 font-semibold">My Education</h1>
+                                <h1 className="text-2xl text-gray-800 font-bold">My Education</h1>
                                     <h4 className="text-lg text-gray-800 font-semibold text-left">
-                                    B.Sc (3rd Year, 3rd semester) 
+                                    B.Sc (Final Year, 2nd semester) 
                                     </h4>
                                     <h4 className="text-gray-800">
                                     Computer Science and Engineering 
