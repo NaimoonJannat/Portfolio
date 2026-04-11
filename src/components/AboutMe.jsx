@@ -36,7 +36,7 @@ const AboutMe = () => {
                                 <div className="flex flex-col">
                                 <h1 className="text-2xl text-gray-800 font-bold">My Education</h1>
                                     <h4 className="text-lg text-gray-800 font-semibold text-left">
-                                    B.Sc (Final Year, 2nd semester) 
+                                    B.Sc in 
                                     </h4>
                                     <h4 className="text-gray-800">
                                     Computer Science and Engineering 

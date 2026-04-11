@@ -16,7 +16,7 @@ const Footer = () => {
     </div>
   </nav> 
   <aside>
-    <p>Copyright © 2024 - All right reserved by Naimoon Jannat Prapti</p>
+    <p>Copyright © 2025 - All right reserved by Naimoon Jannat Prapti</p>
   </aside>
 </footer>
     );
